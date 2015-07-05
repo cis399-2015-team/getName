@@ -1,0 +1,56 @@
+ Question 8:
+ All PORTS OF TCP AND UDP CONNECTIONS
+ Command(s) - netstat -a | more >> assignment1.txt
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 *:ssh                   *:*                     LISTEN     
+tcp        0      0 ip-10-0-1-226.us-we:ssh c-67-171-210-80.h:49567 ESTABLISHED
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+udp        0      0 *:60296                 *:*                                
+udp        0      0 *:bootpc                *:*                                
+udp6       0      0 [::]:49349              [::]:*                             
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     SEQPACKET  LISTENING     7458     /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     8745     /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     6689     @/com/ubuntu/upstart
+unix  2      [ ACC ]     STREAM     LISTENING     9086     /var/run/acpid.socket
+unix  5      [ ]         DGRAM                    8870     /dev/log
+unix  3      [ ]         STREAM     CONNECTED     8771     
+unix  3      [ ]         STREAM     CONNECTED     7940     @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     111158   
+unix  2      [ ]         DGRAM                    111020   
+unix  2      [ ]         DGRAM                    9083     
+unix  3      [ ]         STREAM     CONNECTED     8864     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     8786     
+unix  3      [ ]         STREAM     CONNECTED     8728     
+unix  3      [ ]         STREAM     CONNECTED     7453     @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     7937     
+unix  3      [ ]         STREAM     CONNECTED     111157   
+unix  3      [ ]         DGRAM                    7494     
+unix  3      [ ]         STREAM     CONNECTED     8863     
+unix  3      [ ]         STREAM     CONNECTED     111164   
+unix  3      [ ]         STREAM     CONNECTED     8787     /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    9925     
+unix  3      [ ]         STREAM     CONNECTED     8764     @/com/ubuntu/upstart
+unix  3      [ ]         STREAM     CONNECTED     8772     
+unix  3      [ ]         STREAM     CONNECTED     111165   /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     7442     
+unix  3      [ ]         DGRAM                    7493     
+ --------------------------- 
+ ALL LISTENING CONNECTIONS 
+ Command(s) - netstat -l 
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 *:ssh                   *:*                     LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+udp        0      0 *:60296                 *:*                                
+udp        0      0 *:bootpc                *:*                                
+udp6       0      0 [::]:49349              [::]:*                             
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     SEQPACKET  LISTENING     7458     /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     8745     /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     6689     @/com/ubuntu/upstart
+unix  2      [ ACC ]     STREAM     LISTENING     9086     /var/run/acpid.socket
+ --------------------------- 

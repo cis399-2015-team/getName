@@ -1,0 +1,10 @@
+ Question 2:
+ FINDING PUBLIC IP IN EC2 CONSOLE
+ In the list of instances, each instance in the table has a
+ column for Public IP, which lists the Public IP for each. \n
+ One can also query to find the public IP in the terminal. 
+ Public IP = Broadcast (Bcast) IP 
+ Command(s) - ifconfig | grep inet
+          inet addr:10.0.1.226  Bcast:10.0.1.255  Mask:255.255.255.0
+          inet addr:127.0.0.1  Mask:255.0.0.0
+ --------------------------- 

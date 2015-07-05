@@ -1,0 +1,8 @@
+ Question 4:
+ CHECK FREE MEMORY
+ Command(s) - free -m 
+             total       used       free     shared    buffers     cached
+Mem:           992        504        488          0         67        362
+-/+ buffers/cache:         73        918
+Swap:            0          0          0
+ --------------------------- 

@@ -1,0 +1,9 @@
+ Question 1:
+ INSTANCE IDs & PRIVATE IPs 
+ INSTANCE: getName-Adam 
+ instance ID (i-fb518833) Private IP - (10.0.1.226) 
+ INSTANCE: getName-codyebert
+ instance ID (i-87d0774f) Private IP - (10.0.1.161) 
+ INSTANCE: getName-carrawaych 
+ instance ID (i-ac00ae64) Private IP - (10.0.1.46) 
+ --------------------------- 
