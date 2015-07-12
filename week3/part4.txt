@@ -1,0 +1,4 @@
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-1-46.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1436726730'[0m
+[mNotice: Finished catalog run in 0.18 seconds[0m

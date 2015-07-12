@@ -1,0 +1,7 @@
+ssh stop/waiting
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-1-46.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1436725429'[0m
+[mNotice: /Stage[main]/Sshd/Service[ssh]/ensure: ensure changed 'stopped' to 'running'[0m
+[0;32mInfo: /Stage[main]/Sshd/Service[ssh]: Unscheduling refresh on Service[ssh][0m
+[mNotice: Finished catalog run in 0.24 seconds[0m
