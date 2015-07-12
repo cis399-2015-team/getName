@@ -1,4 +1,18 @@
-[0;32mInfo: Retrieving plugin[0m
-[0;32mInfo: Caching catalog for ip-10-0-1-46.us-west-2.compute.internal[0m
-[0;32mInfo: Applying configuration version '1436726730'[0m
-[mNotice: Finished catalog run in 0.18 seconds[0m
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-1-46.us-west-2.compute.internal
+Info: Applying configuration version '1436731217'
+Notice: /Stage[main]/Sshd/File[/home/ubuntu/.ssh/authorized_keys]/content: 
+--- /home/ubuntu/.ssh/authorized_keys	2015-07-12 20:08:32.930570000 +0000
++++ /tmp/puppet-file20150712-7515-diniuv	2015-07-12 20:14:02.390570000 +0000
+@@ -2,4 +2,5 @@
+ 
+ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCA4i9KNwcY/8uEBCg82pNzRrQOND1k31l2u+9CIkYS+/1+g9BuDsSuKMwAtPnkwRN8g7BvjCVNblxLm55KKkOBPkzOsn1RaMSS7eBFGsqtRp2OhiTWcioT2C9M/9geUg3KZ2OMWqpypB+ojEUQKTReMMRWj5vvyGenGe9JBP4gl0nDGMdAIw/aQ8QdwDoQRXPm4KnqGNDapC1mh9xhh3TO/8Ke4+0JIKMLVUZxLrSneFb6sRHp1sLVJhX1x3E9CwIMdV9h99YQvEMufSCHQcueRZvTWPV0fqxq6XEF5DdoDwylEh9os8dTNoBQQkXKkLBoLutj+OAAjvkOsjPlGQ+j getName-cebert
+ 
+-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCWKorntXMPYi8fgwNEjKxmOI4JnWnqaQoHQMWrZgsASdjJ1d4KAdWLoFQdo4WPT5mTTfEPYYubHUhFDOFpO1Vcx3mk5dub9bV5TfdUoovmO1sbNmWpwY28IH/Xy/gyeIls7dmVjJD6AkzPW9jT4vr6tfNaWjTOeeyG8ykKetuRFuiOYK9RIch5ovSwT60J1TY+alXZML6S7khGPYZXoMqNKMrLWtLhvG+/mQHS82AufTokb5MDydmCLcufs6F4NyCcUMSmfKrjjuU6pFqkzjwJ95gIzFAY7o4ifdAw0xb8e1rUaaEmaaZcvLhb3gq2jF419KiETKHXZbxyHRO6QiJH carraway-key-pair
+\ No newline at end of file
++ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCWKorntXMPYi8fgwNEjKxmOI4JnWnqaQoHQMWrZgsASdjJ1d4KAdWLoFQdo4WPT5mTTfEPYYubHUhFDOFpO1Vcx3mk5dub9bV5TfdUoovmO1sbNmWpwY28IH/Xy/gyeIls7dmVjJD6AkzPW9jT4vr6tfNaWjTOeeyG8ykKetuRFuiOYK9RIch5ovSwT60J1TY+alXZML6S7khGPYZXoMqNKMrLWtLhvG+/mQHS82AufTokb5MDydmCLcufs6F4NyCcUMSmfKrjjuU6pFqkzjwJ95gIzFAY7o4ifdAw0xb8e1rUaaEmaaZcvLhb3gq2jF419KiETKHXZbxyHRO6QiJH carraway-key-pair
++
+
+Info: /Stage[main]/Sshd/File[/home/ubuntu/.ssh/authorized_keys]: Filebucketed /home/ubuntu/.ssh/authorized_keys to puppet with sum f6f8c15a05c0669e8e2d5f4ed99f2778
+Notice: /Stage[main]/Sshd/File[/home/ubuntu/.ssh/authorized_keys]/content: content changed '{md5}f6f8c15a05c0669e8e2d5f4ed99f2778' to '{md5}709633b51f0410750563f45f48669a26'
+Notice: Finished catalog run in 0.36 seconds
