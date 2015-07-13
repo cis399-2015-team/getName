@@ -1,0 +1,7 @@
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-1-46.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1436814524'[0m
+[mNotice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/ensure: defined content as '{md5}db3706831d16ac32d8665fbfb47dbd99'[0m
+[0;32mInfo: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[ssh][0m
+[mNotice: /Stage[main]/Sshd/Service[ssh]: Triggered 'refresh' from 1 events[0m
+[mNotice: Finished catalog run in 0.32 seconds[0m
