@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 [0;32mInfo: Retrieving plugin[0m
 [0;32mInfo: Caching catalog for ip-10-0-1-46.us-west-2.compute.internal[0m
 [0;32mInfo: Applying configuration version '1436731217'[0m
 [mNotice: /Stage[main]/Sshd/Package[openssh-server]/ensure: created[0m
 [mNotice: Finished catalog run in 2.05 seconds[0m
+=======
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-1-46.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1436731217'[0m
+[mNotice: /Stage[main]/Sshd/Package[openssh-server]/ensure: created[0m
+[mNotice: Finished catalog run in 2.13 seconds[0m
+>>>>>>> 2d220bdfd7f0754e16dac0f0e8e72c3579deb66e
