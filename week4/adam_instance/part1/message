@@ -1,0 +1,48 @@
+Message 12:
+From stevev@hexadecimal.uoregon.edu  Mon Jul 20 01:14:08 2015
+Return-Path: <stevev@hexadecimal.uoregon.edu>
+X-Original-To: ubuntu@ec2-52-10-36-255.us-west-2.compute.amazonaws.com
+Delivered-To: ubuntu@ec2-52-10-36-255.us-west-2.compute.amazonaws.com
+Received: from hexadecimal.uoregon.edu (hexadecimal.uoregon.edu [128.223.142.97])
+	by ec2-52-10-36-255.us-west-2.compute.amazonaws.com (Postfix) with ESMTPS id 4F479444B8
+	for <ubuntu@ec2-52-10-36-255.us-west-2.compute.amazonaws.com>; Mon, 20 Jul 2015 01:14:08 +0000 (UTC)
+Received: from hexadecimal.uoregon.edu (localhost [127.0.0.1])
+	by hexadecimal.uoregon.edu (8.14.4/8.14.4/Debian-8) with ESMTP id t6K1DhqF019459
+	for <ubuntu@ec2-52-10-36-255.us-west-2.compute.amazonaws.com>; Sun, 19 Jul 2015 18:13:43 -0700
+Received: (from stevev@localhost)
+	by hexadecimal.uoregon.edu (8.14.4/8.14.4/Submit) id t6K1Dh54019458;
+	Sun, 19 Jul 2015 18:13:43 -0700
+From: Steve VanDevender <stevev@hexadecimal.uoregon.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-ID: <21932.19271.822459.897077@hexadecimal.uoregon.edu>                
+Date: Sun, 19 Jul 2015 18:13:43 -0700
+To: ubuntu@ec2-52-10-36-255.us-west-2.compute.amazonaws.com (Ubuntu)
+Subject: Test
+In-Reply-To: <20150720010444.B543844519@ec2-52-10-36-255.us-west-2.compute.amazonaws.com>
+References: <20150720010444.B543844519@ec2-52-10-36-255.us-west-2.compute.amazonaws.com>
+X-Mailer: VM 8.2.0b under 24.4.1 (i586-pc-linux-gnu)
+Status: R
+
+Testing again.
+
+Return-Path: <ubuntu@ec2-52-10-36-255.us-west-2.compute.amazonaws.com>
+Received: from ec2-52-10-36-255.us-west-2.compute.amazonaws.com (ec2-52-10-36-255.us-west-2.compute.amazonaws.com [52.10.36.255])
+	by hexadecimal.uoregon.edu (8.14.4/8.14.4/Debian-8) with ESMTP id t6K14PdF019373
+	for <stevev@hexadecimal.uoregon.edu>; Sun, 19 Jul 2015 18:04:26 -0700
+Received: by ec2-52-10-36-255.us-west-2.compute.amazonaws.com (Postfix, from userid 1000)
+	id B543844519; Mon, 20 Jul 2015 01:04:44 +0000 (UTC)
+User-Agent: Heirloom mailx 12.5 6/20/10                                        
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20150720010444.B543844519@ec2-52-10-36-255.us-west-2.compute.amazonaws.com>
+From: ubuntu@ec2-52-10-36-255.us-west-2.compute.amazonaws.com (Ubuntu)
+To: stevev@hexadecimal.uoregon.edu
+Subject: Test
+Date: Mon, 20 Jul 2015 01:04:44 +0000
+
+This is Adam testing my outgoing mail.  Please let me know if it arrives safely.
+
+
