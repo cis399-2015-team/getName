@@ -1,0 +1,44 @@
+Jul 19 20:41:29 ip-10-0-1-226 postfix/master[17605]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 19 20:41:52 ip-10-0-1-226 postfix/postqueue[17617]: fatal: Queue report unavailable - mail system is down
+Jul 19 20:42:02 ip-10-0-1-226 postfix/postqueue[17619]: fatal: Cannot flush mail queue - mail system is down
+Jul 19 20:49:29 ip-10-0-1-226 postfix/postqueue[17624]: fatal: Queue report unavailable - mail system is down
+Jul 19 20:49:58 ip-10-0-1-226 postfix/postqueue[17629]: fatal: Cannot flush mail queue - mail system is down
+Jul 19 20:50:27 ip-10-0-1-226 postfix/postqueue[17631]: fatal: Cannot flush mail queue - mail system is down
+Jul 19 20:56:41 ip-10-0-1-226 postfix/postfix-script[17777]: error: unknown command: 'restart'
+Jul 19 20:56:41 ip-10-0-1-226 postfix/postfix-script[17778]: fatal: usage: postfix start (or stop, reload, abort, flush, check, status, set-permissions, upgrade-configuration)
+Jul 19 20:57:10 ip-10-0-1-226 postfix/postfix-script[17794]: fatal: the Postfix mail system is not running
+Jul 19 20:58:01 ip-10-0-1-226 postfix/postfix-script[17976]: fatal: the Postfix mail system is not running
+Jul 19 20:58:06 ip-10-0-1-226 postfix/postfix-script[17984]: fatal: the Postfix mail system is not running
+Jul 19 20:58:53 ip-10-0-1-226 postfix/master[18357]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 19 20:58:54 ip-10-0-1-226 postfix/master[18356]: fatal: daemon initialization failure
+Jul 19 20:58:55 ip-10-0-1-226 postfix/postfix-script[18358]: fatal: mail system startup failed
+Jul 19 21:01:51 ip-10-0-1-226 postfix/master[19645]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 19 21:02:16 ip-10-0-1-226 postfix/postqueue[19657]: fatal: Queue report unavailable - mail system is down
+Jul 19 21:02:27 ip-10-0-1-226 postfix/master[19759]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 19 21:02:28 ip-10-0-1-226 postfix/master[19758]: fatal: daemon initialization failure
+Jul 19 21:02:29 ip-10-0-1-226 postfix/postfix-script[19760]: fatal: mail system startup failed
+Jul 19 21:03:52 ip-10-0-1-226 postfix/master[20442]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 19 21:04:00 ip-10-0-1-226 postfix/postqueue[20451]: fatal: Queue report unavailable - mail system is down
+Jul 19 21:04:20 ip-10-0-1-226 postfix/postqueue[20456]: fatal: Cannot flush mail queue - mail system is down
+Jul 19 21:04:28 ip-10-0-1-226 postfix/postqueue[20457]: fatal: Cannot flush mail queue - mail system is down
+Jul 19 21:05:11 ip-10-0-1-226 postfix/master[20566]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 19 21:30:23 ip-10-0-1-226 postfix/postqueue[21581]: fatal: usage: postqueue -f | postqueue -i queueid | postqueue -p | postqueue -s site
+Jul 19 21:45:36 ip-10-0-1-226 postfix[21745]: error: to submit mail, use the Postfix sendmail command
+Jul 19 21:45:36 ip-10-0-1-226 postfix[21745]: fatal: the postfix command is reserved for the superuser
+Jul 19 22:10:41 ip-10-0-1-226 postfix/postqueue[22179]: fatal: usage: postqueue -f | postqueue -i queueid | postqueue -p | postqueue -s site
+Jul 19 22:10:49 ip-10-0-1-226 postfix/postqueue[22180]: fatal: usage: postqueue -f | postqueue -i queueid | postqueue -p | postqueue -s site
+Jul 19 22:33:49 ip-10-0-1-226 postfix[22748]: error: to submit mail, use the Postfix sendmail command
+Jul 19 22:33:49 ip-10-0-1-226 postfix[22748]: fatal: the postfix command is reserved for the superuser
+Jul 19 22:34:28 ip-10-0-1-226 postfix[22750]: error: to submit mail, use the Postfix sendmail command
+Jul 19 22:34:28 ip-10-0-1-226 postfix[22750]: fatal: the postfix command is reserved for the superuser
+Jul 19 22:34:56 ip-10-0-1-226 postfix[22862]: error: to submit mail, use the Postfix sendmail command
+Jul 19 22:34:56 ip-10-0-1-226 postfix[22862]: fatal: the postfix command is reserved for the superuser
+Jul 19 22:35:01 ip-10-0-1-226 postfix[22864]: fatal: usage: postfix [-c config_dir] [-Dv] command
+Jul 19 22:36:00 ip-10-0-1-226 postfix/postsuper[22869]: fatal: use of this command is reserved for the superuser
+Jul 19 22:41:21 ip-10-0-1-226 postfix[22915]: error: to submit mail, use the Postfix sendmail command
+Jul 19 22:41:21 ip-10-0-1-226 postfix[22915]: fatal: the postfix command is reserved for the superuser
+Jul 19 22:41:26 ip-10-0-1-226 postfix[22917]: fatal: usage: postfix [-c config_dir] [-Dv] command
+Jul 19 22:52:19 ip-10-0-1-226 postfix/postqueue[23027]: fatal: usage: postqueue -f | postqueue -i queueid | postqueue -p | postqueue -s site
+Jul 19 22:56:19 ip-10-0-1-226 postfix/postqueue[23136]: fatal: usage: postqueue -f | postqueue -i queueid | postqueue -p | postqueue -s site
+Jul 19 22:58:33 ip-10-0-1-226 postfix/postqueue[23179]: fatal: usage: postqueue -f | postqueue -i queueid | postqueue -p | postqueue -s site
+Jul 19 22:59:08 ip-10-0-1-226 postfix/postqueue[23186]: fatal: Cannot flush queue ID - invalid name: "2A553444DA*"
