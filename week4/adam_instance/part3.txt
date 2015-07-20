@@ -1,0 +1,9 @@
+ADAM's INSTANCE
+
+
+INDEX PAGE:
+http://ec2-52-10-36-255.us-west-2.compute.amazonaws.com
+
+FOO PAGE:
+http://ec2-52-10-36-255.us-west-2.compute.amazonaws.com/foo.html
+
