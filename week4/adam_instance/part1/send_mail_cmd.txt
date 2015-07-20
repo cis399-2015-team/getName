@@ -1,0 +1,2 @@
+echo "This is Adam testing my outgoing mail.  Please let me know if it arrives safely." | mail -s Test stevev@hexadecimal.uoregon.edu
+
