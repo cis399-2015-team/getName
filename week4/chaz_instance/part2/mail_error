@@ -1,0 +1,63 @@
+Jul 20 01:43:01 ip-10-0-1-46 postfix/master[12428]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 01:52:39 ip-10-0-1-46 postfix/postqueue[13405]: fatal: Queue report unavailable - mail system is down
+Jul 20 01:52:58 ip-10-0-1-46 postfix/postfix-script[13413]: fatal: the Postfix mail system is not running
+Jul 20 01:53:07 ip-10-0-1-46 postfix/master[13515]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 01:53:08 ip-10-0-1-46 postfix/master[13514]: fatal: daemon initialization failure
+Jul 20 01:53:09 ip-10-0-1-46 postfix/postfix-script[13516]: fatal: mail system startup failed
+Jul 20 01:53:54 ip-10-0-1-46 postfix/postfix-script[14025]: error: unknown command: 'restart'
+Jul 20 01:53:54 ip-10-0-1-46 postfix/postfix-script[14026]: fatal: usage: postfix start (or stop, reload, abort, flush, check, status, set-permissions, upgrade-configuration)
+Jul 20 01:54:25 ip-10-0-1-46 postfix/master[14236]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 01:54:26 ip-10-0-1-46 postfix/master[14235]: fatal: daemon initialization failure
+Jul 20 01:54:27 ip-10-0-1-46 postfix/postfix-script[14237]: fatal: mail system startup failed
+Jul 20 01:55:25 ip-10-0-1-46 postfix[14238]: error: to submit mail, use the Postfix sendmail command
+Jul 20 01:55:25 ip-10-0-1-46 postfix[14238]: fatal: the postfix command is reserved for the superuser
+Jul 20 01:55:31 ip-10-0-1-46 postfix/postfix-script[14246]: fatal: the Postfix mail system is not running
+Jul 20 01:55:41 ip-10-0-1-46 postfix/postqueue[14253]: fatal: Cannot flush mail queue - mail system is down
+Jul 20 01:56:48 ip-10-0-1-46 postfix/postfix-script[14265]: fatal: the Postfix mail system is not running
+Jul 20 01:58:26 ip-10-0-1-46 postfix[14279]: error: to submit mail, use the Postfix sendmail command
+Jul 20 01:58:26 ip-10-0-1-46 postfix[14279]: fatal: the postfix command is reserved for the superuser
+Jul 20 01:58:39 ip-10-0-1-46 postfix/postfix-script[14292]: fatal: the Postfix mail system is not running
+Jul 20 01:59:41 ip-10-0-1-46 sm-mta[14377]: NOQUEUE: SYSERR(root): hash map "access": missing map file /etc/mail/access.db: No such file or directory
+Jul 20 02:00:46 ip-10-0-1-46 postfix/postfix-script[14415]: fatal: the Postfix mail system is not running
+Jul 20 02:01:36 ip-10-0-1-46 postfix/master[15214]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:01:46 ip-10-0-1-46 postfix/master[15330]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:02:32 ip-10-0-1-46 postfix/master[15442]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:02:33 ip-10-0-1-46 postfix/master[15441]: fatal: daemon initialization failure
+Jul 20 02:02:34 ip-10-0-1-46 postfix/postfix-script[15443]: fatal: mail system startup failed
+Jul 20 02:04:14 ip-10-0-1-46 postfix/master[15580]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:04:33 ip-10-0-1-46 postfix/master[15691]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:04:37 ip-10-0-1-46 postfix/postfix-script[15704]: fatal: the Postfix mail system is not running
+Jul 20 02:05:03 ip-10-0-1-46 postfix/master[16424]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:05:43 ip-10-0-1-46 postfix/postfix-script[16468]: fatal: the Postfix mail system is not running
+Jul 20 02:08:36 ip-10-0-1-46 sm-mta[17827]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA-v4: cannot bind: Address already in use
+Jul 20 02:08:36 ip-10-0-1-46 sm-mta[17827]: daemon MTA-v4: problem creating SMTP socket
+Jul 20 02:08:36 ip-10-0-1-46 sm-mta[17827]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA-v4: cannot bind: Address already in use
+Jul 20 02:08:36 ip-10-0-1-46 sm-mta[17827]: daemon MTA-v4: problem creating SMTP socket
+Jul 20 02:08:41 ip-10-0-1-46 sm-mta[17827]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA-v4: cannot bind: Address already in use
+Jul 20 02:08:41 ip-10-0-1-46 sm-mta[17827]: daemon MTA-v4: problem creating SMTP socket
+Jul 20 02:08:46 ip-10-0-1-46 sm-mta[17827]: NOQUEUE: SYSERR(root): opendaemonsocket: daemon MTA-v4: cannot bind: Address already in use
+Jul 20 02:08:46 ip-10-0-1-46 sm-mta[17827]: daemon MTA-v4: problem creating SMTP socket
+Jul 20 02:10:46 ip-10-0-1-46 postfix/master[18961]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:10:58 ip-10-0-1-46 postfix/postfix-script[18980]: fatal: the Postfix mail system is not running
+Jul 20 02:21:25 ip-10-0-1-46 postfix/master[21159]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:21:33 ip-10-0-1-46 postfix/master[21460]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:22:02 ip-10-0-1-46 postfix/postfix-script[21552]: fatal: the Postfix mail system is not running
+Jul 20 02:22:21 ip-10-0-1-46 postfix/postfix-script[21565]: fatal: the Postfix mail system is not running
+Jul 20 02:22:42 ip-10-0-1-46 postfix/master[22268]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:22:46 ip-10-0-1-46 postfix/postfix-script[22287]: fatal: the Postfix mail system is not running
+Jul 20 02:24:46 ip-10-0-1-46 postfix/master[22577]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:25:09 ip-10-0-1-46 postfix/postfix-script[22593]: fatal: the Postfix mail system is not running
+Jul 20 02:25:39 ip-10-0-1-46 postfix/postfix-script[22606]: fatal: the Postfix mail system is not running
+Jul 20 02:25:45 ip-10-0-1-46 postfix/master[22699]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:25:49 ip-10-0-1-46 postfix/postfix-script[22710]: fatal: the Postfix mail system is not running
+Jul 20 02:25:52 ip-10-0-1-46 postfix/master[22803]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:26:04 ip-10-0-1-46 postfix/postfix-script[22816]: fatal: the Postfix mail system is not running
+Jul 20 02:26:17 ip-10-0-1-46 postfix/postfix-script[22864]: fatal: the Postfix mail system is not running
+Jul 20 02:41:53 ip-10-0-1-46 postfix[2016]: error: to submit mail, use the Postfix sendmail command
+Jul 20 02:41:53 ip-10-0-1-46 postfix[2016]: fatal: the postfix command is reserved for the superuser
+Jul 20 03:01:19 ip-10-0-1-46 postfix/postfix-script[2526]: fatal: the Postfix mail system is already running
+Jul 20 03:11:50 ip-10-0-1-46 postfix/postfix-script[2951]: fatal: the Postfix mail system is already running
+Jul 20 03:11:55 ip-10-0-1-46 postfix/postfix-script[2958]: error: unknown command: 'restart'
+Jul 20 03:11:55 ip-10-0-1-46 postfix/postfix-script[2959]: fatal: usage: postfix start (or stop, reload, abort, flush, check, status, set-permissions, upgrade-configuration)
+Jul 20 03:15:18 ip-10-0-1-46 postfix/sendmail[3003]: fatal: usage: sendmail [options]
+Jul 20 03:19:31 ip-10-0-1-46 postfix/sendmail[3046]: fatal: usage: sendmail [options]
