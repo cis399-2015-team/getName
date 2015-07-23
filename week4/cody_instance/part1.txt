@@ -1,0 +1,52 @@
+Return-Path: <stevev@hexadecimal.uoregon.edu>
+X-Original-To: ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com
+Delivered-To: ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com
+Received: from hexadecimal.uoregon.edu (hexadecimal.uoregon.edu [128.223.142.97]
+)
+	by ip-10-0-1-138.us-west-2.compute.internal (Postfix) with ESMTPS id 532
+B042D6D
+	for <ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>; Mon, 20 J
+ul 2015 21:52:14 +0000 (UTC)
+Received: from hexadecimal.uoregon.edu (localhost [127.0.0.1])
+	by hexadecimal.uoregon.edu (8.14.4/8.14.4/Debian-8) with ESMTP id t6KLqB
+Ro027455
+	for <ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>; Mon, 20 J
+ul 2015 14:52:11 -0700
+Received: (from stevev@localhost)
+	by hexadecimal.uoregon.edu (8.14.4/8.14.4/Submit) id t6KLqB2S027454;
+	Mon, 20 Jul 2015 14:52:11 -0700
+From: Steve VanDevender <stevev@hexadecimal.uoregon.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-ID: <21933.28043.59525.74311@hexadecimal.uoregon.edu>
+Date: Mon, 20 Jul 2015 14:52:11 -0700
+To: ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com
+Subject: test
+In-Reply-To: <20150720213948.B3B3C42D6C@ip-10-0-1-138.us-west-2.compute.internal
+>
+References: <20150720213948.B3B3C42D6C@ip-10-0-1-138.us-west-2.compute.internal>
+X-Mailer: VM 8.2.0b under 24.4.1 (i586-pc-linux-gnu)
+
+Here is the message I received from your instance.
+
+Could you identify which team you're working with?
+
+Return-Path: <ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>
+Received: from ip-10-0-1-138.us-west-2.compute.internal (ec2-54-68-28-173.us-wes
+t-2.compute.amazonaws.com [54.68.28.173])
+	by hexadecimal.uoregon.edu (8.14.4/8.14.4/Debian-8) with ESMTP id t6KLe7
+GB027380
+	for <stevev@hexadecimal.uoregon.edu>; Mon, 20 Jul 2015 14:40:08 -0700
+Received: from hexadecimal.uoregon.edu (localhost [127.0.0.1])
+	by ip-10-0-1-138.us-west-2.compute.internal (Postfix) with ESMTP id B3B3
+C42D6C
+	for <stevev@hexadecimal.uoregon.edu>; Mon, 20 Jul 2015 21:38:41 +0000 (U
+TC)
+Message-Id: <20150720213948.B3B3C42D6C@ip-10-0-1-138.us-west-2.compute.internal>
+From: ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com
+subject: test
+Date: Mon, 20 Jul 2015 21:38:41 +0000 (UTC)
+
+this is a test
+

@@ -1,0 +1,241 @@
+Jul 20 02:29:11 ip-10-0-1-138 postfix/master[10475]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:59:04 ip-10-0-1-138 postfix/master[10866]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 03:29:04 ip-10-0-1-138 postfix/master[11233]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 03:59:04 ip-10-0-1-138 postfix/master[11597]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 04:29:04 ip-10-0-1-138 postfix/master[11966]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 04:59:04 ip-10-0-1-138 postfix/master[12330]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 05:29:04 ip-10-0-1-138 postfix/master[12712]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 05:59:05 ip-10-0-1-138 postfix/master[13078]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:29:04 ip-10-0-1-138 postfix/master[13500]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:34:13 ip-10-0-1-138 postfix/master[14112]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:35:01 ip-10-0-1-138 postfix/postfix-script[14189]: error: unknown command: ''
+Jul 20 06:35:02 ip-10-0-1-138 postfix/postfix-script[14190]: fatal: usage: postfix start (or stop, reload, abort, flush, check, status, set-permissions, upgrade-configuration)
+Jul 20 06:35:32 ip-10-0-1-138 postfix/postfix-script[14197]: error: unknown command: 'reconfigure'
+Jul 20 06:35:32 ip-10-0-1-138 postfix/postfix-script[14198]: fatal: usage: postfix start (or stop, reload, abort, flush, check, status, set-permissions, upgrade-configuration)
+Jul 20 06:43:31 ip-10-0-1-138 postfix/master[16615]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:44:30 ip-10-0-1-138 postfix/postdrop[16633]: warning: unable to look up public/pickup: No such file or directory
+Jul 20 06:44:33 ip-10-0-1-138 postfix/postqueue[16634]: fatal: Queue report unavailable - mail system is down
+Jul 20 06:45:28 ip-10-0-1-138 postfix/master[16747]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:45:34 ip-10-0-1-138 postfix/postdrop[16750]: warning: unable to look up public/pickup: No such file or directory
+Jul 20 06:45:37 ip-10-0-1-138 postfix/postqueue[16751]: fatal: Queue report unavailable - mail system is down
+Jul 20 06:45:54 ip-10-0-1-138 postfix/postfix-script[16780]: fatal: the Postfix mail system is not running
+Jul 20 06:46:28 ip-10-0-1-138 postfix/master[16889]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:47:55 ip-10-0-1-138 postfix/postfix-script[16924]: fatal: the Postfix mail system is not running
+Jul 20 06:48:02 ip-10-0-1-138 postfix/postfix-script[17024]: starting the Postfix mail system
+Jul 20 06:48:02 ip-10-0-1-138 postfix/master[17026]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:48:03 ip-10-0-1-138 postfix/master[17025]: fatal: daemon initialization failure
+Jul 20 06:48:04 ip-10-0-1-138 postfix/postfix-script[17027]: fatal: mail system startup failed
+Jul 20 06:48:48 ip-10-0-1-138 postfix/postqueue[17028]: warning: unable to look up public/qmgr: No such file or directory
+Jul 20 06:48:48 ip-10-0-1-138 postfix/postqueue[17028]: fatal: Cannot flush mail queue - mail system is down
+Jul 20 06:49:14 ip-10-0-1-138 postfix/postfix-script[17036]: the Postfix mail system is not running
+Jul 20 06:50:29 ip-10-0-1-138 postfix/master[17139]: daemon started -- version 2.11.0, configuration /etc/postfix
+Jul 20 06:50:29 ip-10-0-1-138 postfix/pickup[17140]: E68C142E16: uid=1000 from=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:29 ip-10-0-1-138 postfix/cleanup[17142]: E68C142E16: message-id=<20150720065029.E68C142E16@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:29 ip-10-0-1-138 postfix/qmgr[17141]: E68C142E16: from=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>, size=443, nrcpt=1 (queue active)
+Jul 20 06:50:29 ip-10-0-1-138 postfix/pickup[17140]: E84D942D44: uid=1000 from=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:29 ip-10-0-1-138 postfix/cleanup[17142]: E84D942D44: message-id=<20150720065029.E84D942D44@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:29 ip-10-0-1-138 postfix/qmgr[17141]: E84D942D44: from=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>, size=443, nrcpt=1 (queue active)
+Jul 20 06:50:30 ip-10-0-1-138 postfix/smtp[17145]: E84D942D44: to=<alindsey@uoregon.edu>, relay=smtp.uoregon.edu[184.171.108.237]:25, delay=296, delays=296/0/0.28/0.1, dsn=5.1.8, status=bounced (host smtp.uoregon.edu[184.171.108.237] said: 553 5.1.8 <alindsey@uoregon.edu>... Domain of sender address ubuntu@ip-10-0-1-138.us-west-2.compute.internal does not exist (in reply to RCPT TO command))
+Jul 20 06:50:30 ip-10-0-1-138 postfix/cleanup[17142]: 5552B42E19: message-id=<20150720065030.5552B42E19@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:30 ip-10-0-1-138 postfix/qmgr[17141]: 5552B42E19: from=<>, size=2828, nrcpt=1 (queue active)
+Jul 20 06:50:30 ip-10-0-1-138 postfix/bounce[17146]: E84D942D44: sender non-delivery notification: 5552B42E19
+Jul 20 06:50:30 ip-10-0-1-138 postfix/qmgr[17141]: E84D942D44: removed
+Jul 20 06:50:30 ip-10-0-1-138 postfix/smtp[17145]: 5552B42E19: to=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>, relay=none, delay=0.01, delays=0/0/0/0, dsn=5.4.6, status=bounced (mail for ip-10-0-1-138.us-west-2.compute.internal loops back to myself)
+Jul 20 06:50:30 ip-10-0-1-138 postfix/qmgr[17141]: 5552B42E19: removed
+Jul 20 06:50:30 ip-10-0-1-138 postfix/smtp[17144]: E68C142E16: to=<alindsey@uoregon.edu>, relay=smtp.uoregon.edu[184.171.108.237]:25, delay=360, delays=359/0/0.33/0.09, dsn=5.1.8, status=bounced (host smtp.uoregon.edu[184.171.108.237] said: 553 5.1.8 <alindsey@uoregon.edu>... Domain of sender address ubuntu@ip-10-0-1-138.us-west-2.compute.internal does not exist (in reply to RCPT TO command))
+Jul 20 06:50:30 ip-10-0-1-138 postfix/cleanup[17142]: 6111F42E18: message-id=<20150720065030.6111F42E18@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:30 ip-10-0-1-138 postfix/qmgr[17141]: 6111F42E18: from=<>, size=2828, nrcpt=1 (queue active)
+Jul 20 06:50:30 ip-10-0-1-138 postfix/bounce[17147]: E68C142E16: sender non-delivery notification: 6111F42E18
+Jul 20 06:50:30 ip-10-0-1-138 postfix/qmgr[17141]: E68C142E16: removed
+Jul 20 06:50:30 ip-10-0-1-138 postfix/smtp[17145]: 6111F42E18: to=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>, relay=none, delay=0, delays=0/0/0/0, dsn=5.4.6, status=bounced (mail for ip-10-0-1-138.us-west-2.compute.internal loops back to myself)
+Jul 20 06:50:30 ip-10-0-1-138 postfix/qmgr[17141]: 6111F42E18: removed
+Jul 20 06:50:43 ip-10-0-1-138 postfix/pickup[17140]: 15A7642E16: uid=1000 from=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:43 ip-10-0-1-138 postfix/cleanup[17142]: 15A7642E16: message-id=<20150720065043.15A7642E16@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:43 ip-10-0-1-138 postfix/qmgr[17141]: 15A7642E16: from=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>, size=443, nrcpt=1 (queue active)
+Jul 20 06:50:43 ip-10-0-1-138 postfix/smtp[17144]: 15A7642E16: to=<alindsey@uoregon.edu>, relay=smtp.uoregon.edu[184.171.108.237]:25, delay=0.39, delays=0.01/0/0.27/0.12, dsn=5.1.8, status=bounced (host smtp.uoregon.edu[184.171.108.237] said: 553 5.1.8 <alindsey@uoregon.edu>... Domain of sender address ubuntu@ip-10-0-1-138.us-west-2.compute.internal does not exist (in reply to RCPT TO command))
+Jul 20 06:50:43 ip-10-0-1-138 postfix/cleanup[17142]: 77EDD42E18: message-id=<20150720065043.77EDD42E18@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:50:43 ip-10-0-1-138 postfix/qmgr[17141]: 77EDD42E18: from=<>, size=2828, nrcpt=1 (queue active)
+Jul 20 06:50:43 ip-10-0-1-138 postfix/bounce[17147]: 15A7642E16: sender non-delivery notification: 77EDD42E18
+Jul 20 06:50:43 ip-10-0-1-138 postfix/qmgr[17141]: 15A7642E16: removed
+Jul 20 06:50:43 ip-10-0-1-138 postfix/smtp[17145]: 77EDD42E18: to=<ubuntu@ip-10-0-1-138.us-west-2.compute.internal>, relay=none, delay=0.01, delays=0/0/0/0, dsn=5.4.6, status=bounced (mail for ip-10-0-1-138.us-west-2.compute.internal loops back to myself)
+Jul 20 06:50:43 ip-10-0-1-138 postfix/qmgr[17141]: 77EDD42E18: removed
+Jul 20 06:51:36 ip-10-0-1-138 postfix/smtpd[17173]: connect from localhost[127.0.0.1]
+Jul 20 06:52:24 ip-10-0-1-138 postfix/smtpd[17173]: DD3A242E18: client=localhost[127.0.0.1]
+Jul 20 06:53:04 ip-10-0-1-138 postfix/cleanup[17176]: DD3A242E18: message-id=<20150720065224.DD3A242E18@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:53:04 ip-10-0-1-138 postfix/qmgr[17141]: DD3A242E18: from=<root@localhost>, size=398, nrcpt=1 (queue active)
+Jul 20 06:53:04 ip-10-0-1-138 postfix/local[17177]: DD3A242E18: to=<ubuntu@localhost>, relay=local, delay=54, delays=54/0/0/0.01, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Jul 20 06:53:04 ip-10-0-1-138 postfix/qmgr[17141]: DD3A242E18: removed
+Jul 20 06:53:08 ip-10-0-1-138 postfix/smtpd[17173]: disconnect from localhost[127.0.0.1]
+Jul 20 06:53:23 ip-10-0-1-138 postfix/smtpd[17173]: connect from localhost[127.0.0.1]
+Jul 20 06:55:34 ip-10-0-1-138 postfix/smtpd[17173]: E8C4742E18: client=localhost[127.0.0.1]
+Jul 20 06:56:18 ip-10-0-1-138 postfix/cleanup[17183]: E8C4742E18: message-id=<20150720065534.E8C4742E18@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:56:18 ip-10-0-1-138 postfix/qmgr[17141]: E8C4742E18: from=<ubuntu@localhost>, size=403, nrcpt=1 (queue active)
+Jul 20 06:56:19 ip-10-0-1-138 postfix/smtp[17184]: E8C4742E18: to=<alindsey@uoregon.edu>, relay=smtp.uoregon.edu[184.171.108.237]:25, delay=157, delays=156/0/0.35/0.38, dsn=2.0.0, status=sent (250 2.0.0 t6K6uG5e024482 Message accepted for delivery)
+Jul 20 06:56:19 ip-10-0-1-138 postfix/qmgr[17141]: E8C4742E18: removed
+Jul 20 06:56:21 ip-10-0-1-138 postfix/smtpd[17173]: disconnect from localhost[127.0.0.1]
+Jul 20 06:56:51 ip-10-0-1-138 postfix/smtpd[17173]: connect from localhost[127.0.0.1]
+Jul 20 06:57:54 ip-10-0-1-138 postfix/smtpd[17173]: warning: non-SMTP command from localhost[127.0.0.1]: Subject: Stuff and such
+Jul 20 06:57:54 ip-10-0-1-138 postfix/smtpd[17173]: disconnect from localhost[127.0.0.1]
+Jul 20 06:58:12 ip-10-0-1-138 postfix/smtpd[17173]: connect from localhost[127.0.0.1]
+Jul 20 06:58:43 ip-10-0-1-138 postfix/smtpd[17173]: 6CBC042E18: client=localhost[127.0.0.1]
+Jul 20 06:59:10 ip-10-0-1-138 postfix/cleanup[17193]: 6CBC042E18: message-id=<20150720065843.6CBC042E18@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 06:59:10 ip-10-0-1-138 postfix/qmgr[17141]: 6CBC042E18: from=<ubuntu@localhost>, size=406, nrcpt=1 (queue active)
+Jul 20 06:59:11 ip-10-0-1-138 postfix/smtp[17430]: 6CBC042E18: to=<alindsey@uoregon.edu>, relay=smtp.uoregon.edu[184.171.108.237]:25, delay=41, delays=40/0/0.18/0.35, dsn=2.0.0, status=sent (250 2.0.0 t6K6x85J032634 Message accepted for delivery)
+Jul 20 06:59:11 ip-10-0-1-138 postfix/qmgr[17141]: 6CBC042E18: removed
+Jul 20 06:59:13 ip-10-0-1-138 postfix/smtpd[17173]: disconnect from localhost[127.0.0.1]
+Jul 20 06:59:57 ip-10-0-1-138 postfix/smtpd[17173]: connect from localhost[127.0.0.1]
+Jul 20 07:02:13 ip-10-0-1-138 postfix/smtpd[17173]: 2B80242D6C: client=localhost[127.0.0.1]
+Jul 20 07:02:36 ip-10-0-1-138 postfix/cleanup[17436]: 2B80242D6C: message-id=<20150720070213.2B80242D6C@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 07:02:36 ip-10-0-1-138 postfix/qmgr[17141]: 2B80242D6C: from=<ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>, size=442, nrcpt=1 (queue active)
+Jul 20 07:02:37 ip-10-0-1-138 postfix/smtp[17437]: 2B80242D6C: to=<alindsey@uoregon.edu>, relay=smtp.uoregon.edu[184.171.108.237]:25, delay=47, delays=47/0/0.19/0.3, dsn=2.0.0, status=sent (250 2.0.0 t6K72Y55027346 Message accepted for delivery)
+Jul 20 07:02:37 ip-10-0-1-138 postfix/qmgr[17141]: 2B80242D6C: removed
+Jul 20 07:02:38 ip-10-0-1-138 postfix/smtpd[17173]: disconnect from localhost[127.0.0.1]
+Jul 20 07:02:59 ip-10-0-1-138 postfix/smtpd[17173]: connect from localhost[127.0.0.1]
+Jul 20 07:04:06 ip-10-0-1-138 postfix/smtpd[17173]: disconnect from localhost[127.0.0.1]
+Jul 20 07:06:44 ip-10-0-1-138 postfix/smtpd[17446]: connect from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]
+Jul 20 07:07:45 ip-10-0-1-138 postfix/smtpd[17446]: NOQUEUE: reject: RCPT from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]: 454 4.7.1 <alindsey@uoregon.edu>: Relay access denied; from=<ubuntu@localhost> to=<alindsey@uoregon.edu> proto=ESMTP helo=<localhost>
+Jul 20 07:08:07 ip-10-0-1-138 postfix/smtpd[17446]: warning: non-SMTP command from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]: Subject:
+Jul 20 07:08:07 ip-10-0-1-138 postfix/smtpd[17446]: disconnect from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]
+Jul 20 07:08:15 ip-10-0-1-138 postfix/smtpd[17446]: connect from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]
+Jul 20 07:08:31 ip-10-0-1-138 postfix/smtpd[17446]: disconnect from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]
+Jul 20 07:08:33 ip-10-0-1-138 postfix/smtpd[17446]: connect from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]
+Jul 20 07:09:04 ip-10-0-1-138 postfix/smtpd[17446]: NOQUEUE: reject: RCPT from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]: 454 4.7.1 <alindsey@uoregon.edu>: Relay access denied; from=<ubuntu@localhost> to=<alindsey@uoregon.edu> proto=ESMTP helo=<mail.uoregon.edu>
+Jul 20 07:09:24 ip-10-0-1-138 postfix/smtpd[17446]: disconnect from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]
+Jul 20 07:09:39 ip-10-0-1-138 postfix/smtpd[17446]: connect from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]
+Jul 20 07:10:06 ip-10-0-1-138 postfix/smtpd[17446]: NOQUEUE: reject: RCPT from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]: 454 4.7.1 <alindsey@uoregon.edu>: Relay access denied; from=<ubuntu@localhost> to=<alindsey@uoregon.edu> proto=ESMTP helo=<uoregon.edu>
+Jul 20 07:10:14 ip-10-0-1-138 postfix/smtpd[17446]: disconnect from ip-10-0-1-138.us-west-2.compute.internal[10.0.1.138]
+Jul 20 07:11:50 ip-10-0-1-138 postfix/smtpd[17446]: connect from localhost[127.0.0.1]
+Jul 20 07:13:18 ip-10-0-1-138 postfix/smtpd[17446]: 1F83C42D6C: client=localhost[127.0.0.1]
+Jul 20 07:13:48 ip-10-0-1-138 postfix/cleanup[17479]: 1F83C42D6C: message-id=<20150720071318.1F83C42D6C@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 07:13:48 ip-10-0-1-138 postfix/qmgr[17141]: 1F83C42D6C: from=<ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>, size=449, nrcpt=1 (queue active)
+Jul 20 07:13:49 ip-10-0-1-138 postfix/smtp[17480]: 1F83C42D6C: to=<alindsey@uoregon.edu>, relay=smtp.uoregon.edu[184.171.108.237]:25, delay=47, delays=46/0/0.26/0.33, dsn=2.0.0, status=sent (250 2.0.0 t6K7DkWk026226 Message accepted for delivery)
+Jul 20 07:13:49 ip-10-0-1-138 postfix/qmgr[17141]: 1F83C42D6C: removed
+Jul 20 07:13:51 ip-10-0-1-138 postfix/smtpd[17446]: disconnect from localhost[127.0.0.1]
+Jul 20 07:14:13 ip-10-0-1-138 postfix/smtpd[17446]: connect from cc-smtp2.uoregon.edu[184.171.108.230]
+Jul 20 07:14:13 ip-10-0-1-138 postfix/smtpd[17446]: B929B42D6C: client=cc-smtp2.uoregon.edu[184.171.108.230]
+Jul 20 07:14:13 ip-10-0-1-138 postfix/cleanup[17479]: B929B42D6C: message-id=<9bc86b3ce12e77a40b93bb7c38b0643a@uoregon.edu>
+Jul 20 07:14:13 ip-10-0-1-138 postfix/qmgr[17141]: B929B42D6C: from=<alindsey@uoregon.edu>, size=1905, nrcpt=1 (queue active)
+Jul 20 07:14:13 ip-10-0-1-138 postfix/local[17482]: B929B42D6C: to=<ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>, relay=local, delay=0.06, delays=0.05/0/0/0.01, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Jul 20 07:14:13 ip-10-0-1-138 postfix/qmgr[17141]: B929B42D6C: removed
+Jul 20 07:14:13 ip-10-0-1-138 postfix/smtpd[17446]: disconnect from cc-smtp2.uoregon.edu[184.171.108.230]
+Jul 20 07:16:44 ip-10-0-1-138 postfix/anvil[17448]: statistics: max connection rate 2/60s for (smtp:10.0.1.138) at Jul 20 07:08:33
+Jul 20 07:16:44 ip-10-0-1-138 postfix/anvil[17448]: statistics: max connection count 1 for (smtp:10.0.1.138) at Jul 20 07:06:44
+Jul 20 07:16:44 ip-10-0-1-138 postfix/anvil[17448]: statistics: max cache size 1 at Jul 20 07:06:44
+Jul 20 21:32:18 ip-10-0-1-138 postfix/smtpd[25411]: connect from localhost[127.0.0.1]
+Jul 20 21:34:20 ip-10-0-1-138 postfix/smtpd[25411]: 3CEAD42D6C: client=localhost[127.0.0.1]
+Jul 20 21:35:04 ip-10-0-1-138 postfix/cleanup[25414]: 3CEAD42D6C: message-id=<20150720213420.3CEAD42D6C@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 21:35:04 ip-10-0-1-138 postfix/qmgr[17141]: 3CEAD42D6C: from=<ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>, size=433, nrcpt=1 (queue active)
+Jul 20 21:35:04 ip-10-0-1-138 postfix/smtp[25415]: 3CEAD42D6C: to=<stevev@hexdecimal.uoregon.edu>, relay=none, delay=63, delays=63/0/0.02/0, dsn=5.4.4, status=bounced (Host or domain name not found. Name service error for name=hexdecimal.uoregon.edu type=AAAA: Host not found)
+Jul 20 21:35:04 ip-10-0-1-138 postfix/cleanup[25414]: 60C3B42E18: message-id=<20150720213504.60C3B42E18@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 21:35:04 ip-10-0-1-138 postfix/qmgr[17141]: 60C3B42E18: from=<>, size=2771, nrcpt=1 (queue active)
+Jul 20 21:35:04 ip-10-0-1-138 postfix/bounce[25416]: 3CEAD42D6C: sender non-delivery notification: 60C3B42E18
+Jul 20 21:35:04 ip-10-0-1-138 postfix/qmgr[17141]: 3CEAD42D6C: removed
+Jul 20 21:35:04 ip-10-0-1-138 postfix/local[25418]: 60C3B42E18: to=<ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Jul 20 21:35:04 ip-10-0-1-138 postfix/qmgr[17141]: 60C3B42E18: removed
+Jul 20 21:35:08 ip-10-0-1-138 postfix/smtpd[25411]: disconnect from localhost[127.0.0.1]
+Jul 20 21:37:15 ip-10-0-1-138 postfix/smtpd[25425]: connect from localhost[127.0.0.1]
+Jul 20 21:39:28 ip-10-0-1-138 postfix/smtpd[25425]: NOQUEUE: reject: RCPT from localhost[127.0.0.1]: 550 5.1.1 <steve>: Recipient address rejected: User unknown in local recipient table; from=<ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com> to=<steve> proto=ESMTP helo=<hexadecimal.uoregon.edu>
+Jul 20 21:39:48 ip-10-0-1-138 postfix/smtpd[25425]: B3B3C42D6C: client=localhost[127.0.0.1]
+Jul 20 21:40:05 ip-10-0-1-138 postfix/cleanup[25452]: B3B3C42D6C: message-id=<20150720213948.B3B3C42D6C@ip-10-0-1-138.us-west-2.compute.internal>
+Jul 20 21:40:05 ip-10-0-1-138 postfix/qmgr[17141]: B3B3C42D6C: from=<ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>, size=446, nrcpt=1 (queue active)
+Jul 20 21:40:09 ip-10-0-1-138 postfix/smtpd[25425]: disconnect from localhost[127.0.0.1]
+Jul 20 21:40:11 ip-10-0-1-138 postfix/smtp[25453]: B3B3C42D6C: to=<stevev@hexadecimal.uoregon.edu>, relay=hexadecimal.uoregon.edu[128.223.142.97]:25, delay=90, delays=84/0/6.1/0.17, dsn=2.0.0, status=sent (250 2.0.0 t6KLe7GB027380 Message accepted for delivery)
+Jul 20 21:40:11 ip-10-0-1-138 postfix/qmgr[17141]: B3B3C42D6C: removed
+Jul 20 21:52:14 ip-10-0-1-138 postfix/smtpd[25528]: connect from hexadecimal.uoregon.edu[128.223.142.97]
+Jul 20 21:52:14 ip-10-0-1-138 postfix/smtpd[25528]: 532B042D6D: client=hexadecimal.uoregon.edu[128.223.142.97]
+Jul 20 21:52:14 ip-10-0-1-138 postfix/cleanup[25532]: 532B042D6D: message-id=<21933.28043.59525.74311@hexadecimal.uoregon.edu>
+Jul 20 21:52:14 ip-10-0-1-138 postfix/qmgr[17141]: 532B042D6D: from=<stevev@hexadecimal.uoregon.edu>, size=2109, nrcpt=1 (queue active)
+Jul 20 21:52:14 ip-10-0-1-138 postfix/local[25533]: 532B042D6D: to=<ubuntu@ec2-54-68-28-173.us-west-2.compute.amazonaws.com>, relay=local, delay=0.05, delays=0.05/0/0/0, dsn=2.0.0, status=sent (delivered to command: procmail -a "$EXTENSION")
+Jul 20 21:52:14 ip-10-0-1-138 postfix/qmgr[17141]: 532B042D6D: removed
+Jul 20 21:52:14 ip-10-0-1-138 postfix/smtpd[25528]: disconnect from hexadecimal.uoregon.edu[128.223.142.97]
+Jul 20 21:55:34 ip-10-0-1-138 postfix/anvil[25530]: statistics: max connection rate 1/60s for (smtp:128.223.142.97) at Jul 20 21:52:14
+Jul 20 21:55:34 ip-10-0-1-138 postfix/anvil[25530]: statistics: max connection count 1 for (smtp:128.223.142.97) at Jul 20 21:52:14
+Jul 20 21:55:34 ip-10-0-1-138 postfix/anvil[25530]: statistics: max cache size 1 at Jul 20 21:52:14
+Jul 20 23:11:24 ip-10-0-1-138 postfix/smtpd[26318]: connect from r201-217-155-75.ir-static.anteldata.net.uy[201.217.155.75]
+Jul 20 23:11:24 ip-10-0-1-138 postfix/smtpd[26318]: lost connection after EHLO from r201-217-155-75.ir-static.anteldata.net.uy[201.217.155.75]
+Jul 20 23:11:24 ip-10-0-1-138 postfix/smtpd[26318]: disconnect from r201-217-155-75.ir-static.anteldata.net.uy[201.217.155.75]
+Jul 20 23:14:44 ip-10-0-1-138 postfix/anvil[26320]: statistics: max connection rate 1/60s for (smtp:201.217.155.75) at Jul 20 23:11:24
+Jul 20 23:14:44 ip-10-0-1-138 postfix/anvil[26320]: statistics: max connection count 1 for (smtp:201.217.155.75) at Jul 20 23:11:24
+Jul 20 23:14:44 ip-10-0-1-138 postfix/anvil[26320]: statistics: max cache size 1 at Jul 20 23:11:24
+Jul 21 00:37:52 ip-10-0-1-138 postfix/smtpd[31795]: connect from unknown[203.88.173.124]
+Jul 21 00:37:52 ip-10-0-1-138 postfix/smtpd[31795]: lost connection after CONNECT from unknown[203.88.173.124]
+Jul 21 00:37:52 ip-10-0-1-138 postfix/smtpd[31795]: disconnect from unknown[203.88.173.124]
+Jul 21 00:41:12 ip-10-0-1-138 postfix/anvil[31805]: statistics: max connection rate 1/60s for (smtp:203.88.173.124) at Jul 21 00:37:52
+Jul 21 00:41:12 ip-10-0-1-138 postfix/anvil[31805]: statistics: max connection count 1 for (smtp:203.88.173.124) at Jul 21 00:37:52
+Jul 21 00:41:12 ip-10-0-1-138 postfix/anvil[31805]: statistics: max cache size 1 at Jul 21 00:37:52
+Jul 21 04:45:48 ip-10-0-1-138 postfix/smtpd[14481]: connect from unknown[219.144.200.102]
+Jul 21 04:45:49 ip-10-0-1-138 postfix/smtpd[14481]: lost connection after EHLO from unknown[219.144.200.102]
+Jul 21 04:45:49 ip-10-0-1-138 postfix/smtpd[14481]: disconnect from unknown[219.144.200.102]
+Jul 21 04:49:09 ip-10-0-1-138 postfix/anvil[14483]: statistics: max connection rate 1/60s for (smtp:219.144.200.102) at Jul 21 04:45:48
+Jul 21 04:49:09 ip-10-0-1-138 postfix/anvil[14483]: statistics: max connection count 1 for (smtp:219.144.200.102) at Jul 21 04:45:48
+Jul 21 04:49:09 ip-10-0-1-138 postfix/anvil[14483]: statistics: max cache size 1 at Jul 21 04:45:48
+Jul 21 10:32:01 ip-10-0-1-138 postfix/smtpd[21875]: connect from scan2researchpaper.net.in.tum.de[188.95.233.5]
+Jul 21 10:32:06 ip-10-0-1-138 postfix/smtpd[21875]: lost connection after STARTTLS from scan2researchpaper.net.in.tum.de[188.95.233.5]
+Jul 21 10:32:06 ip-10-0-1-138 postfix/smtpd[21875]: disconnect from scan2researchpaper.net.in.tum.de[188.95.233.5]
+Jul 21 10:35:26 ip-10-0-1-138 postfix/anvil[21877]: statistics: max connection rate 1/60s for (smtp:188.95.233.5) at Jul 21 10:32:01
+Jul 21 10:35:26 ip-10-0-1-138 postfix/anvil[21877]: statistics: max connection count 1 for (smtp:188.95.233.5) at Jul 21 10:32:01
+Jul 21 10:35:26 ip-10-0-1-138 postfix/anvil[21877]: statistics: max cache size 1 at Jul 21 10:32:01
+Jul 21 16:41:39 ip-10-0-1-138 postfix/smtpd[25059]: connect from unknown[190.35.191.244]
+Jul 21 16:41:39 ip-10-0-1-138 postfix/smtpd[25059]: lost connection after EHLO from unknown[190.35.191.244]
+Jul 21 16:41:39 ip-10-0-1-138 postfix/smtpd[25059]: disconnect from unknown[190.35.191.244]
+Jul 21 16:44:59 ip-10-0-1-138 postfix/anvil[25061]: statistics: max connection rate 1/60s for (smtp:190.35.191.244) at Jul 21 16:41:39
+Jul 21 16:44:59 ip-10-0-1-138 postfix/anvil[25061]: statistics: max connection count 1 for (smtp:190.35.191.244) at Jul 21 16:41:39
+Jul 21 16:44:59 ip-10-0-1-138 postfix/anvil[25061]: statistics: max cache size 1 at Jul 21 16:41:39
+Jul 21 22:10:16 ip-10-0-1-138 postfix/smtpd[28133]: connect from 36-224-133-251.dynamic-ip.hinet.net[36.224.133.251]
+Jul 21 22:10:16 ip-10-0-1-138 postfix/smtpd[28133]: NOQUEUE: reject: RCPT from 36-224-133-251.dynamic-ip.hinet.net[36.224.133.251]: 454 4.7.1 <gk49fawn@yahoo.com.tw>: Relay access denied; from=<z2007tw@yahoo.com.tw> to=<gk49fawn@yahoo.com.tw> proto=SMTP helo=<54.68.28.173>
+Jul 21 22:10:16 ip-10-0-1-138 postfix/smtpd[28133]: lost connection after RCPT from 36-224-133-251.dynamic-ip.hinet.net[36.224.133.251]
+Jul 21 22:10:16 ip-10-0-1-138 postfix/smtpd[28133]: disconnect from 36-224-133-251.dynamic-ip.hinet.net[36.224.133.251]
+Jul 21 22:13:37 ip-10-0-1-138 postfix/anvil[28135]: statistics: max connection rate 1/60s for (smtp:36.224.133.251) at Jul 21 22:10:16
+Jul 21 22:13:37 ip-10-0-1-138 postfix/anvil[28135]: statistics: max connection count 1 for (smtp:36.224.133.251) at Jul 21 22:10:16
+Jul 21 22:13:37 ip-10-0-1-138 postfix/anvil[28135]: statistics: max cache size 1 at Jul 21 22:10:16
+Jul 21 23:52:53 ip-10-0-1-138 postfix/smtpd[28948]: warning: hostname ip-221-107.dataclub.biz does not resolve to address 46.183.221.107: Name or service not known
+Jul 21 23:52:53 ip-10-0-1-138 postfix/smtpd[28948]: connect from unknown[46.183.221.107]
+Jul 21 23:52:53 ip-10-0-1-138 postfix/smtpd[28948]: disconnect from unknown[46.183.221.107]
+Jul 21 23:56:13 ip-10-0-1-138 postfix/anvil[28950]: statistics: max connection rate 1/60s for (smtp:46.183.221.107) at Jul 21 23:52:52
+Jul 21 23:56:13 ip-10-0-1-138 postfix/anvil[28950]: statistics: max connection count 1 for (smtp:46.183.221.107) at Jul 21 23:52:52
+Jul 21 23:56:13 ip-10-0-1-138 postfix/anvil[28950]: statistics: max cache size 1 at Jul 21 23:52:52
+Jul 22 05:49:53 ip-10-0-1-138 postfix/smtpd[32114]: warning: hostname hosted-by.hostgrad.ru does not resolve to address 185.40.4.32: Name or service not known
+Jul 22 05:49:53 ip-10-0-1-138 postfix/smtpd[32114]: connect from unknown[185.40.4.32]
+Jul 22 05:49:54 ip-10-0-1-138 postfix/smtpd[32114]: disconnect from unknown[185.40.4.32]
+Jul 22 05:53:14 ip-10-0-1-138 postfix/anvil[32116]: statistics: max connection rate 1/60s for (smtp:185.40.4.32) at Jul 22 05:49:53
+Jul 22 05:53:14 ip-10-0-1-138 postfix/anvil[32116]: statistics: max connection count 1 for (smtp:185.40.4.32) at Jul 22 05:49:53
+Jul 22 05:53:14 ip-10-0-1-138 postfix/anvil[32116]: statistics: max cache size 1 at Jul 22 05:49:53
+Jul 22 07:18:57 ip-10-0-1-138 postfix/smtpd[593]: warning: hostname 125-227-24-37.HINET-IP.hinet.net does not resolve to address 125.227.24.37: Name or service not known
+Jul 22 07:18:57 ip-10-0-1-138 postfix/smtpd[593]: connect from unknown[125.227.24.37]
+Jul 22 07:18:57 ip-10-0-1-138 postfix/smtpd[593]: lost connection after EHLO from unknown[125.227.24.37]
+Jul 22 07:18:57 ip-10-0-1-138 postfix/smtpd[593]: disconnect from unknown[125.227.24.37]
+Jul 22 07:22:17 ip-10-0-1-138 postfix/anvil[595]: statistics: max connection rate 1/60s for (smtp:125.227.24.37) at Jul 22 07:18:57
+Jul 22 07:22:17 ip-10-0-1-138 postfix/anvil[595]: statistics: max connection count 1 for (smtp:125.227.24.37) at Jul 22 07:18:57
+Jul 22 07:22:17 ip-10-0-1-138 postfix/anvil[595]: statistics: max cache size 1 at Jul 22 07:18:57
+Jul 22 08:11:35 ip-10-0-1-138 postfix/smtpd[1136]: connect from unknown[61.19.114.147]
+Jul 22 08:11:35 ip-10-0-1-138 postfix/smtpd[1136]: lost connection after EHLO from unknown[61.19.114.147]
+Jul 22 08:11:35 ip-10-0-1-138 postfix/smtpd[1136]: disconnect from unknown[61.19.114.147]
+Jul 22 08:14:55 ip-10-0-1-138 postfix/anvil[1138]: statistics: max connection rate 1/60s for (smtp:61.19.114.147) at Jul 22 08:11:35
+Jul 22 08:14:55 ip-10-0-1-138 postfix/anvil[1138]: statistics: max connection count 1 for (smtp:61.19.114.147) at Jul 22 08:11:35
+Jul 22 08:14:55 ip-10-0-1-138 postfix/anvil[1138]: statistics: max cache size 1 at Jul 22 08:11:35
+Jul 22 15:49:35 ip-10-0-1-138 postfix/smtpd[5140]: warning: hostname 52.134.52.113.static.ximdns.com does not resolve to address 113.52.134.52: Name or service not known
+Jul 22 15:49:35 ip-10-0-1-138 postfix/smtpd[5140]: connect from unknown[113.52.134.52]
+Jul 22 15:49:36 ip-10-0-1-138 postfix/smtpd[5140]: lost connection after EHLO from unknown[113.52.134.52]
+Jul 22 15:49:36 ip-10-0-1-138 postfix/smtpd[5140]: disconnect from unknown[113.52.134.52]
+Jul 22 15:52:56 ip-10-0-1-138 postfix/anvil[5142]: statistics: max connection rate 1/60s for (smtp:113.52.134.52) at Jul 22 15:49:35
+Jul 22 15:52:56 ip-10-0-1-138 postfix/anvil[5142]: statistics: max connection count 1 for (smtp:113.52.134.52) at Jul 22 15:49:35
+Jul 22 15:52:56 ip-10-0-1-138 postfix/anvil[5142]: statistics: max cache size 1 at Jul 22 15:49:35
+Jul 22 18:40:29 ip-10-0-1-138 postfix/smtpd[6718]: connect from unknown[124.156.130.9]
+Jul 22 18:40:29 ip-10-0-1-138 postfix/smtpd[6718]: lost connection after EHLO from unknown[124.156.130.9]
+Jul 22 18:40:29 ip-10-0-1-138 postfix/smtpd[6718]: disconnect from unknown[124.156.130.9]
+Jul 22 18:43:49 ip-10-0-1-138 postfix/anvil[6720]: statistics: max connection rate 1/60s for (smtp:124.156.130.9) at Jul 22 18:40:29
+Jul 22 18:43:49 ip-10-0-1-138 postfix/anvil[6720]: statistics: max connection count 1 for (smtp:124.156.130.9) at Jul 22 18:40:29
+Jul 22 18:43:49 ip-10-0-1-138 postfix/anvil[6720]: statistics: max cache size 1 at Jul 22 18:40:29
+Jul 23 08:02:02 ip-10-0-1-138 postfix/smtpd[15032]: warning: hostname 185.default.location does not resolve to address 190.214.21.185: Name or service not known
+Jul 23 08:02:02 ip-10-0-1-138 postfix/smtpd[15032]: connect from unknown[190.214.21.185]
+Jul 23 08:02:03 ip-10-0-1-138 postfix/smtpd[15032]: lost connection after EHLO from unknown[190.214.21.185]
+Jul 23 08:02:03 ip-10-0-1-138 postfix/smtpd[15032]: disconnect from unknown[190.214.21.185]
+Jul 23 08:05:23 ip-10-0-1-138 postfix/anvil[15034]: statistics: max connection rate 1/60s for (smtp:190.214.21.185) at Jul 23 08:02:02
+Jul 23 08:05:23 ip-10-0-1-138 postfix/anvil[15034]: statistics: max connection count 1 for (smtp:190.214.21.185) at Jul 23 08:02:02
+Jul 23 08:05:23 ip-10-0-1-138 postfix/anvil[15034]: statistics: max cache size 1 at Jul 23 08:02:02
+Jul 23 18:58:22 ip-10-0-1-138 postfix/smtpd[20909]: connect from unknown[121.41.45.62]
+Jul 23 18:58:23 ip-10-0-1-138 postfix/smtpd[20909]: lost connection after EHLO from unknown[121.41.45.62]
+Jul 23 18:58:23 ip-10-0-1-138 postfix/smtpd[20909]: disconnect from unknown[121.41.45.62]
+Jul 23 19:01:43 ip-10-0-1-138 postfix/anvil[20911]: statistics: max connection rate 1/60s for (smtp:121.41.45.62) at Jul 23 18:58:22
+Jul 23 19:01:43 ip-10-0-1-138 postfix/anvil[20911]: statistics: max connection count 1 for (smtp:121.41.45.62) at Jul 23 18:58:22
+Jul 23 19:01:43 ip-10-0-1-138 postfix/anvil[20911]: statistics: max cache size 1 at Jul 23 18:58:22

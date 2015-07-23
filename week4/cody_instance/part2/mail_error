@@ -1,0 +1,25 @@
+Jul 20 02:29:11 ip-10-0-1-138 postfix/master[10475]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 02:59:04 ip-10-0-1-138 postfix/master[10866]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 03:29:04 ip-10-0-1-138 postfix/master[11233]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 03:59:04 ip-10-0-1-138 postfix/master[11597]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 04:29:04 ip-10-0-1-138 postfix/master[11966]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 04:59:04 ip-10-0-1-138 postfix/master[12330]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 05:29:04 ip-10-0-1-138 postfix/master[12712]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 05:59:05 ip-10-0-1-138 postfix/master[13078]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:29:04 ip-10-0-1-138 postfix/master[13500]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:34:13 ip-10-0-1-138 postfix/master[14112]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:35:01 ip-10-0-1-138 postfix/postfix-script[14189]: error: unknown command: ''
+Jul 20 06:35:02 ip-10-0-1-138 postfix/postfix-script[14190]: fatal: usage: postfix start (or stop, reload, abort, flush, check, status, set-permissions, upgrade-configuration)
+Jul 20 06:35:32 ip-10-0-1-138 postfix/postfix-script[14197]: error: unknown command: 'reconfigure'
+Jul 20 06:35:32 ip-10-0-1-138 postfix/postfix-script[14198]: fatal: usage: postfix start (or stop, reload, abort, flush, check, status, set-permissions, upgrade-configuration)
+Jul 20 06:43:31 ip-10-0-1-138 postfix/master[16615]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:44:33 ip-10-0-1-138 postfix/postqueue[16634]: fatal: Queue report unavailable - mail system is down
+Jul 20 06:45:28 ip-10-0-1-138 postfix/master[16747]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:45:37 ip-10-0-1-138 postfix/postqueue[16751]: fatal: Queue report unavailable - mail system is down
+Jul 20 06:45:54 ip-10-0-1-138 postfix/postfix-script[16780]: fatal: the Postfix mail system is not running
+Jul 20 06:46:28 ip-10-0-1-138 postfix/master[16889]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:47:55 ip-10-0-1-138 postfix/postfix-script[16924]: fatal: the Postfix mail system is not running
+Jul 20 06:48:02 ip-10-0-1-138 postfix/master[17026]: fatal: bind 0.0.0.0 port 25: Address already in use
+Jul 20 06:48:03 ip-10-0-1-138 postfix/master[17025]: fatal: daemon initialization failure
+Jul 20 06:48:04 ip-10-0-1-138 postfix/postfix-script[17027]: fatal: mail system startup failed
+Jul 20 06:48:48 ip-10-0-1-138 postfix/postqueue[17028]: fatal: Cannot flush mail queue - mail system is down
