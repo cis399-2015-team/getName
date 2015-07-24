@@ -1,0 +1,54 @@
+LOAD BALANCER URL:
+getName-lb-660433534.us-west-2.elb.amazonaws.com
+ervice still running after one instance taken offline.
+2.Web service down after both instances taken offline. Server does not respond and says "Waiting for response".
+3.Web service running after both instances put back online.
+::1 - - [24/Jul/2015:21:34:06 +0000] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.11 (internal dummy connection)"
+::1 - - [24/Jul/2015:21:34:07 +0000] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.11 (internal dummy connection)"
+::1 - - [24/Jul/2015:21:34:08 +0000] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.11 (internal dummy connection)"
+10.0.1.81 - - [24/Jul/2015:21:34:08 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+::1 - - [24/Jul/2015:21:34:11 +0000] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.11 (internal dummy connection)"
+::1 - - [24/Jul/2015:21:34:14 +0000] "OPTIONS * HTTP/1.0" 200 125 "-" "Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.11 (internal dummy connection)"
+10.0.1.10 - - [24/Jul/2015:21:34:18 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.81 - - [24/Jul/2015:21:34:38 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.10 - - [24/Jul/2015:21:34:48 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.81 - - [24/Jul/2015:21:35:08 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.10 - - [24/Jul/2015:21:35:18 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.81 - - [24/Jul/2015:21:35:38 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.10 - - [24/Jul/2015:21:35:48 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.81 - - [24/Jul/2015:21:36:08 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.10 - - [24/Jul/2015:21:36:18 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.81 - - [24/Jul/2015:21:36:38 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+10.0.1.10 - - [24/Jul/2015:21:36:48 +0000] "GET /index.html HTTP/1.1" 200 396 "-" "ELB-HealthChecker/1.0"
+class httpd{
+
+	package{ "postfix": ensure => installed;}
+	package{ "apache2": ensure => installed;}
+	file { "/var/www/html/index.html":
+		source	=> ["puppet:///modules/httpd/$hostname/index.html",
+			    "puppet:///modules/httpd/index.html",],
+		mode	=> 444,
+		owner	=> root,
+		group 	=> root,
+		require => Package["apache2"],
+	}
+	service{ "postfix":
+                  enable  => true,
+                  ensure  => running,
+                  require => Package["postfix"],
+        }   	
+	service{ "apache2":
+                  enable  => true,
+                  ensure  => running,
+                  require => [ Package["apache2"],
+			       File["/var/www/html/index.html"],],
+		  subscribe => File["/var/www/html/index.html"],
+        } 
+}
+
+
+
+
+
+
+
