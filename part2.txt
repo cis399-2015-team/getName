@@ -1,0 +1,3 @@
+ervice still running after one instance taken offline.
+2.Web service down after both instances taken offline. Server does not respond and says "Waiting for response".
+3.Web service running after both instances put back online.
