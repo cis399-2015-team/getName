@@ -1,0 +1,30 @@
+TEAM getName
+Adam
+Chaz
+Cody
+
+FINAL PROJECT PROPOSAL:
+For our final project, we would like to create a php interface to act as a 
+stripped down version of the EC2 AWS console.  The php interface will use the
+AWS EC2 CLI SDK for PHP and be able to send commands to our different instances
+through a web interface.
+
+GOALS:
+Our goal for this project is to create a simple web interface to our instances
+that allow us to do simple tasks to specific instances.
+
+EFFECT ON USERS:
+The users will be limited to authorized system administrators for our ec2
+instances.  Therefore the users will be limited to the professor and getName
+group members.  Therefore the focus for users will be more on security, which
+is discussed in the next section.
+
+SECURITY ISSUES:
+One of the main issues we will need to focus on security.  Since we will be
+making a web interface that requires a login, security of login will be our
+main focus to prevent anyone from being able to poke at our instances.
+
+MAINTENANCE & AUTOMATION:
+
+
+DOCUMENTATION:
