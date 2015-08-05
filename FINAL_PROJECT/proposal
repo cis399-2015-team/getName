@@ -11,20 +11,35 @@ through a web interface.
 
 GOALS:
 Our goal for this project is to create a simple web interface to our instances
-that allow us to do simple tasks to specific instances.
+that allow us to do simple tasks to specific instances. We would like to be
+able to securely log on to the interface, perform simple tasks on each of the
+instances, and prevent any unauthorized use of the interface.
 
 EFFECT ON USERS:
 The users will be limited to authorized system administrators for our ec2
 instances.  Therefore the users will be limited to the professor and getName
-group members.  Therefore the focus for users will be more on security, which
-is discussed in the next section.
+group members, and will be limited to the amount of features that we can get
+implemented with the remaining time we have left in the term..  
+
+Therefore the focus for users will be more on security, which is discussed in 
+the next section.
 
 SECURITY ISSUES:
 One of the main issues we will need to focus on security.  Since we will be
 making a web interface that requires a login, security of login will be our
-main focus to prevent anyone from being able to poke at our instances.
+main focus to prevent anyone from being able to poke at our instances.  Our
+focus will be to only allow authorized users, prevent any unauthorized use, and
+to encrypt and keep secure any and all traffic/transactions.  We want a simple
+interface that will be unavailable to unauthorized users.
 
 MAINTENANCE & AUTOMATION:
-
+After we begin to establish an interface and functionality, we would like to be
+able to automate the setup using the puppet code.  In this manner we will be
+able to add more instances and automate the setup process for each by running
+puppet agent -t.
 
 DOCUMENTATION:
+We will also provide a man page and documentation on our interface for other
+future system admins that may take over the maintenance and development 
+(in theory).  Also it will allow for easier grading due to the documentation of
+the interface functionality and features (plus the aspects of security).
