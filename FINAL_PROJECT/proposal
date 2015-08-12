@@ -9,11 +9,17 @@ stripped down version of the EC2 AWS console.  The php interface will use the
 AWS EC2 CLI SDK for PHP and be able to send commands to our different instances
 through a web interface.
 
+The commands include stop, start and restart for all three instances. Of course the EC2 handles this with more efficiency, but having buttons to push is a lot easy to do, rather then building our own interface. This helps bring to light security issues that we face that simply get overlooked, and also gives us more insight into how a web interface can interact with its respective server. We are looking at this as an learning experience and not so much something thats adding more value to our cluster of servers.  
+
 GOALS:
 Our goal for this project is to create a simple web interface to our instances
 that allow us to do simple tasks to specific instances. We would like to be
 able to securely log on to the interface, perform simple tasks on each of the
-instances, and prevent any unauthorized use of the interface.
+instances, and prevent any unauthorized use of the interface. 
+
+We will be providing some type of identification for authorize use. Our web server will securely fetch from the SQL backend database to check for consistencies, based on fetch results the user will either be granted access or denied. If denied the user will be notified, if successful the user will be granted access to the instance interface. The authorized user will have the choice to select between our three instances. 
+
+We would like the login to go away after authentication through php following the instance interface (3 buttons). If the user is denied, the login screen will disappear and a graphic image will display telling them they are not authorized.   
 
 EFFECT ON USERS:
 The users will be limited to authorized system administrators for our ec2
@@ -30,7 +36,7 @@ making a web interface that requires a login, security of login will be our
 main focus to prevent anyone from being able to poke at our instances.  Our
 focus will be to only allow authorized users, prevent any unauthorized use, and
 to encrypt and keep secure any and all traffic/transactions.  We want a simple
-interface that will be unavailable to unauthorized users.
+interface that will be unavailable to unauthorized users. This will be handled through ssl certificate, which will take care of the encryption through the network. We will need to handle this encryption properly on the backend. Time gaps between decrypting and encrypting are one of our biggest concerns, any imposing threats could sniff out when something is decrypted and threaten our entire operation. This is a very sensitive topic and even the best in the field continue to fall victim to this ongoing issue in the computing world. Clearly we are no experts in this subject.
 
 MAINTENANCE & AUTOMATION:
 After we begin to establish an interface and functionality, we would like to be
